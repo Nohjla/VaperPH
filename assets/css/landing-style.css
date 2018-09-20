@@ -1,0 +1,39 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url(../images/bg2.gif);
+	/*Gif of Titus Edwards blowing his signature Jellyfish shape with his vape.*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-custom {
+    background-color: rgba(255,255,255,0.08);
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: red;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: blue;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: yellow;
+}
+
+.jumbotron{
+	margin: 100px 0;
+	background: rgba(8, 41, 124,0.10);
+}		
