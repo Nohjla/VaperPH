@@ -3,37 +3,80 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
 }
-body{
-	background: url(../images/bg2.gif);
+body{	
+	height: 100vh;
 	/*Gif of Titus Edwards blowing his signature Jellyfish shape with his vape.*/
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	margin: 0;
-	padding: 0;
 }
 
+.section-wrapper{	
+	padding:40px;
+	min-height:100%;
+}
+
+.main-bg{
+	background: url(../images/bg-smoke-01.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+}
+
+.box-holder {
+	height: 300px;
+	box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
+	margin-right: 20px;
+	padding: 20px;
+}
+
+.margin-0{
+	margin:0;
+}
 .navbar-custom {
-    background-color: rgba(255,255,255,0.08);
+	background-color: rgba(255,255,255,0.08);
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: red;
+	color: red;
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: blue;
+	color: blue;
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: yellow;
+	color: yellow;
 }
 
 .jumbotron{
-	margin: 100px 0;
-	background: rgba(8, 41, 124,0.10);
-}		
+	margin: 40px 0;
+	background: rgba(8, 41, 124,0.001);
+}
+.section-title{
+	text-align: center;
+	color: #FFF;
+	font-size: 44px;
+	text-transform: uppercase;
+}
+
+.product-title{
+	    color: #fff;
+	    font-size: 26px;
+}
+.box-holder > img, .btn{
+	margin: 0 auto;
+	display: block;
+}
+
+@media only screen  and (max-width:1600px){
+.box-holder{
+	margin-right: 0;
+}
+
+.box-holder img{
+	display: block;
+	width: 100%;
+}
