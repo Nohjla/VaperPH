@@ -4,14 +4,14 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Nunito Sans', sans-serif;
+  color: rgb(237, 231, 213);
 }
 body{
 	/*Gif of Titus Edwards blowing his signature Jellyfish shape with his vape.*/
-  
+  background: url('../images/logo.gif');
 	margin: 0;
 	padding: 0;
 }
-
 .vh100{
 	margin: 0;
 	height: 100vh;
@@ -22,23 +22,31 @@ body{
 	float: right;
 }
 
+.navbar-custom.scrolled{
+  background-color: rgb(2, 4, 10) !important;
+}
+
 /* change the background color */
 .navbar-custom {
-    background-color: rgb(127, 128, 132);
+    background-color: rgb(68, 65, 53);
 }
 /* change the brand and text color */
-.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand{
+  color: rgb(229, 215, 165);
+  font-family: 'Monoton', cursive;
+}
 .navbar-custom .navbar-text {
-    color: rgb(247, 246, 246);
+    color: rgb(234, 238, 247);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: rgb(247, 246, 246);
+    color: rgb(234, 238, 247);
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: black;
+    color: rgb(237, 231, 213);
 }
 
 .breadcrumb-des{
@@ -46,7 +54,9 @@ body{
 }
 
 #landing-about{
-	background-color: #f2f2f2;
+	background: url('../images/about.jpeg');
+  background-size: cover;
+  background-position: center;
 	padding-top: 20vh;
 	font-size: 5em;
 	letter-spacing: 5px;
@@ -55,26 +65,34 @@ body{
 .jumbotron{
 	background-color: #141414;
 	padding-top: 90vh;
+  margin-bottom: 0;
 	border-radius: 0;
 }
 
 .fadeIn{
 	animation-duration: 5s;
 }
+.zoomIn{
+  animation-duration: 3s;
+}
+.zoomInUp{
+  animation-duration: 3s;
+}
 
 #mission{
+  margin: 50px 0;
 	height: 100%;
-	background-color: #141414;
-	color: #f2f2f2;
+	background-color:  rgb(71, 69, 62);
 }
 
 #vision{
+  margin-bottom: 50px;
 	height: 100%;
-	background-color: #f2f2f2;
-	color: #141414;
+	background-color:  rgb(71, 69, 62);
 }
 .about-tags{
 	font-weight: bold;
+  letter-spacing: 5px;
 }
 
 #carousel {
@@ -162,7 +180,59 @@ body{
 	padding: 0;
 }
 
+h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+
 .c-cur{
 	cursor: pointer;
 }
 
+.content{
+  margin-top: 110px;
+  padding: 50px 0;
+  background-color:  rgba(71, 69, 62,0.99);
+}
+
+.gallery{
+  margin-top: 40px;
+  padding: 50px 0;
+  background-color:  rgb(71, 69, 62);
+}
+
+.f-orm{
+  padding: 50px;
+  background-color:  rgba(71, 69, 62,0.5)
+}
+
+.marg{
+  margin-top: 400px;
+  margin-bottom: 0;
+}
+
+.marg-t{
+  margin-top: 40px;
+}
+footer{
+  color: rgb(71, 69, 62);
+}
+
+footer > a{
+  color: rgb(71, 69, 62);
+}
+.card{
+  background-color: black; 
+}
+
+.margin-b{
+  margin-bottom: 10px;
+}
+.margin-l{
+  margin-left: 0;
+}
+
+.letter-s{
+  letter-spacing: 10px;
+  font-weight: bold;
+}

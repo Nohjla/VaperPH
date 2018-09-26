@@ -1,3 +1,10 @@
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-custom");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
 function moveToSelected(element) {
 
   if (element == "next") {

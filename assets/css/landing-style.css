@@ -10,6 +10,10 @@ body{
 	height: 100vh;
 	/*Gif of Titus Edwards blowing his signature Jellyfish shape with his vape.*/
 }
+h1{
+	font-family: 'Monoton', cursive;
+	color:rgb(255, 171, 61);
+}
 
 .section-wrapper{	
 	padding:40px;
@@ -80,3 +84,4 @@ body{
 	display: block;
 	width: 100%;
 }
+
