@@ -4,11 +4,11 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Nunito Sans', sans-serif;
-  color: rgb(237, 231, 213);
+  color: rgb(188, 179, 150);
 }
 body{
 	/*Gif of Titus Edwards blowing his signature Jellyfish shape with his vape.*/
-  background: url('../images/logo.gif');
+  /*background: url('../images/logo.gif');*/
 	margin: 0;
 	padding: 0;
 }
@@ -198,12 +198,12 @@ h2{
 .gallery{
   margin-top: 40px;
   padding: 50px 0;
-  background-color:  rgb(71, 69, 62);
+  background-color:  white;
 }
 
 .f-orm{
   padding: 50px;
-  background-color:  rgba(71, 69, 62,0.5)
+  background-color:  rgba(71, 69, 62);
 }
 
 .marg{
@@ -215,11 +215,11 @@ h2{
   margin-top: 40px;
 }
 footer{
-  color: rgb(71, 69, 62);
+  color: rgb(63, 56, 32);
 }
 
 footer > a{
-  color: rgb(71, 69, 62);
+  color: rgb(63, 56, 32);
 }
 .card{
   background-color: black; 
